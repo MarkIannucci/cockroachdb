@@ -10,4 +10,5 @@ exec /cockroach/cockroach start \
   --join=$FLY_APP_NAME.internal \
   --listen-addr=:36257 \
   --sql-addr:26257 \
-  --advertise-addr=$(hostname -f) 
+  --advertise-addr=$(hostname -f) \
+  --store=attrs=ssd,path=/cockroach/cockroach-data
