@@ -9,5 +9,5 @@ exec /cockroach/cockroach start \
   --locality=region=$FLY_REGION \
   --cluster-name=$FLY_APP_NAME \
   --join=$FLY_APP_NAME.internal \
-  --advertise-addr=$(hostname -f) \
-  --store=attrs=ssd,path=/cockroach/cockroach-data
+  --advertise-addr=$(hostname -f)
+  
