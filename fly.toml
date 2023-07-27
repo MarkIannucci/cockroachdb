@@ -1,4 +1,4 @@
-app = "cockroachdb-example"
+app = "$FLY_APP_NAME"
 
 kill_signal = "SIGINT"
 kill_timeout = 60
