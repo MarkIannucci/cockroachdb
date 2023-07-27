@@ -9,5 +9,4 @@ exec /cockroach/cockroach start \
   --locality=region=$FLY_REGION \
   --cluster-name=$FLY_APP_NAME \
   --join=$FLY_APP_NAME.internal \
-  --advertise-addr=$(hostname -f)
-  
+  --advertise-addr=$(hostname -f).vm.${FLY_APP_NAME}.internal
