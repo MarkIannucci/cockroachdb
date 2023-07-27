@@ -1,4 +1,5 @@
 app = "$FLY_APP_NAME"
+primary_region = "${FLY_PRIMARY_REGION}"
 
 kill_signal = "SIGINT"
 kill_timeout = 60
