@@ -1,4 +1,4 @@
-FROM cockroachdb/cockroach:v21.1.2
+FROM cockroachdb/cockroach:v23.1.6
 
 ADD init_cluster.sh /cockroach/
 ADD start_fly.sh /cockroach/
